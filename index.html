@@ -9,19 +9,26 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
         }
         header, footer {
             text-align: center;
-            margin-bottom: 20px;
+            margin: 20px 0;
         }
         header {
             margin-bottom: 0;
         }
         #videos {
-            padding-top: 0; /* Remove space between header and section */
+            padding: 0 20px;
         }
         .video-container {
             margin-bottom: 40px; /* Space between video sections */
+        }
+        iframe {
+            width: 100%; /* Make iframe responsive */
+            height: auto;
+            max-width: 560px; /* Limit maximum width */
         }
         .video-description {
             margin-top: 10px; /* Space between video and description */
@@ -43,38 +50,40 @@
 <section id="videos">
     <h2>Projects</h2>
     <div class="video-container">
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xT3Jy1OH_70?si=1yUvvZFQegFBw_b9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-description">
-                <p><strong>Project Name:</strong> Lockout Procedure Stimulation</p>
-                <p><strong>My Responsibilities:</strong> Developed interaction functionalities, enhanced teleportation mechanics, optimized the project by resolving critical issues as the lead bug fixer, implemented UI elements, and added highlighting algorithms.</p>
-            </div>
+        <iframe src="https://www.youtube.com/embed/xT3Jy1OH_70?si=1yUvvZFQegFBw_b9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-description">
+            <p><strong>Project Name:</strong> Lockout Procedure Stimulation</p>
+            <p><strong>Description:</strong> Developed a simulation of the lockout procedure for a bottling machine, featuring precise real-life scaling and procedural accuracy. The simulation replicates the exact steps and safety protocols involved in a lockout procedure, ensuring a realistic and effective training experience.</p>
+            <p><strong>My Responsibilities:</strong> Developed interaction functionalities, enhanced teleportation mechanics, optimized the project by resolving critical issues as the lead bug fixer, implemented UI elements, and added highlighting algorithms.</p>
         </div>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/PYR1jIT_264?si=oiWAv_04-fkp5qpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-description">
-                <p><strong>Project Name:</strong> Aviation Stimulation </p>
-                <p><strong>My Responsibilities:</strong>Added UI components using Unity and C#, integrated HTML, CSS, and JavaScript for web functionalities, and ensured seamless user experience across platforms.</p>
-            </div>
+    </div>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/PYR1jIT_264?si=oiWAv_04-fkp5qpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-description">
+            <p><strong>Project Name:</strong> Aviation Stimulation</p>
+            <p><strong>Description:</strong> Engineered a realistic simulation of an aircraft cockpit, providing users with an immersive experience of plane operations and cockpit controls. The project focuses on accurate real-life scaling and interactive cockpit elements, enhancing user understanding of aviation systems.</p>
+            <p><strong>My Responsibilities:</strong> Added UI components using Unity and C#, integrated HTML, CSS, and JavaScript for web functionalities, and ensured seamless user experience across platforms.</p>
         </div>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/YN8VY5A5MRo?si=GmRZhOB3SMQ8nco_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-description">
-                <p><strong>Project Name:</strong> Maji</p>
-                <p><strong>My Responsibilities:</strong>Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.</p>
-            </div>
+    </div>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/YN8VY5A5MRo?si=GmRZhOB3SMQ8nco_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-description">
+            <p><strong>Project Name:</strong> Maji</p>
+            <p><strong>Description:</strong> Contributed to Project Maji, an award-winning initiative dedicated to providing sustainable access to clean water in rural African communities. The project aims to improve quality of life through innovative solutions for water accessibility and management.</p>
+            <p><strong>My Responsibilities:</strong> Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.</p>
         </div>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/KWa_W8-sgLc?si=Pyia_jT9dtjZmpbd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-description">
-                <p><strong>Project Name:</strong> Missing</p>
-                <p><strong>My Responsibilities:</strong> Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.</p>
-            </div>
+    </div>
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/KWa_W8-sgLc?si=Pyia_jT9dtjZmpbd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-description">
+            <p><strong>Project Name:</strong> Missing</p>
+            <p><strong>Description:</strong> Collaborated on "Missing," a Meta Quest experience by Born Studios that immerses players in a psychological journey exploring the realities of dementia. The game initially presents as a horror experience but reveals deeper themes related to cognitive challenges and personal experiences of those with dementia.</p>
+            <p><strong>My Responsibilities:</strong> Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.</p>
         </div>
     </div>
 </section>
 <footer>
-    <p>Contact: hayriye.hilal@outlook.com</p>
+    <p>Contact: <a href="mailto:hayriye.hilal@outlook.com">hayriye.hilal@outlook.com</a></p>
 </footer>
 <script src="script.js"></script>
 </body>
