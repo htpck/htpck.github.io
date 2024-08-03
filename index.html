@@ -24,26 +24,20 @@
         }
         .video-container {
             margin-bottom: 40px; /* Space between video sections */
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-            height: 0;
-            overflow: hidden;
             max-width: 100%;
-            background: #000; /* Optional background color */
+            margin: 0 auto;
         }
         .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
+            height: 315px; /* Fixed height for consistency */
+            display: block;
         }
         .video-description {
             margin-top: 10px; /* Space between video and description */
-            font-family: 'Georgia', serif; /* More appealing font */
         }
         .video-description p {
             margin: 5px 0; /* Add some margin between paragraphs */
+            font-family: 'Georgia', serif; /* More appealing font */
         }
         .video-description strong {
             font-size: 1.2em; /* Larger font for project name and responsibilities */
