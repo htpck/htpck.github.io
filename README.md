@@ -8,7 +8,6 @@ Welcome to my portfolio repository! This site showcases a curated selection of f
 - [Featured Projects](#featured-projects)
 - [Technologies Used](#technologies-used)
 - [Contact](#contact)
-- [License](#license)
 
 ## About Me
 
@@ -17,39 +16,35 @@ I’m Hilal, a Unity developer with over 3 years of experience specializing in C
 ## Featured Projects
 
 ### Project 1: [Lockout Procedure](#)
-- **Description:** Developed a simulation of the lockout procedure for a bottling machine, featuring precise real-life scaling and procedural accuracy. The simulation replicates the exact steps and safety protocols involved in a lockout procedure, ensuring a realistic and effective training experience.
+- **Description:** A simulation of the lockout procedure for a bottling machine, featuring precise real-life scaling and procedural accuracy. The simulation replicates the exact steps and safety protocols involved in a lockout procedure, ensuring a realistic and effective training experience.
 - **Technologies:** Unity, C#
-- **My Role:** Lead developer responsible for implementing the core simulation mechanics, ensuring procedural accuracy, and optimizing performance. Created detailed user interactions and safety protocols to mirror real-life procedures.
+- **My Role:** Responsible for implementing the core simulation mechanics, ensuring procedural accuracy, and optimizing performance. Created detailed user interactions and safety protocols to mirror real-life procedures. Led bug-fixing.
 
 ### Project 2: [Aviation](#)
-- **Description:** Engineered a realistic simulation of an aircraft cockpit, providing users with an immersive experience of plane operations and cockpit controls. The project focuses on accurate real-life scaling and interactive cockpit elements, enhancing user understanding of aviation systems.
+- **Description:** A realistic simulation of an aircraft cockpit, providing users with an immersive experience of plane operations and cockpit controls. The project focuses on accurate real-life scaling and interactive cockpit elements, enhancing user understanding of aviation systems.
 - **Technologies:** Unity, WebUI, HTML, CSS, JavaScript
 - **My Role:** Developed interactive UI components and integrated them with Unity for a seamless user experience. Designed and implemented cockpit simulations and controls, and ensured compatibility across web and Unity platforms.
 
 ### Project 3: [Maji](#)
-- **Description:** Contributed to Project Maji, an award-winning initiative dedicated to providing sustainable access to clean water in rural African communities. The project aims to improve quality of life through innovative solutions for water accessibility and management.
+- **Description:** Project Maji, an award-winning initiative dedicated to providing sustainable access to clean water in rural African communities. The project aims to improve quality of life through innovative solutions for water accessibility and management.
 - **Technologies:** Unity, C#
-- **My Role:** Assisted in developing interactive elements and visualizations for the project, supporting the implementation of water access solutions and educational tools. Played a key role in optimizing the user experience and ensuring accurate representation of the project's impact.
+- **My Role:** Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.
 
 ### Project 4: [Missing](#)
-- **Description:** Contributed to "Missing," a Meta Quest experience by Born Studios that immerses players in a psychological journey exploring the realities of dementia. The game initially presents as a horror experience but reveals deeper themes related to cognitive challenges and personal experiences of those with dementia.
+- **Description:**  "Missing," a Meta Quest experience by Born Studios that immerses players in a psychological journey exploring the realities of dementia. The game initially presents as a horror experience but reveals deeper themes related to cognitive challenges and personal experiences of those with dementia.
 - **Technologies:** Unity, C#
-- **My Role:** Worked as a developer focusing on creating immersive environments and character interactions that accurately reflect the experience of living with dementia. Contributed to game design, narrative integration, and optimized the gameplay experience for emotional impact.
+- **My Role:** Contributed as one of the developers for the backend SDK, focusing on interactions and highlightings to ensure robust and efficient functionality.
 
 
 ## Technologies Used
 
 - **Languages:** C#, Java, C++
-- **Frameworks and Tools:** Unity, ARKit, Docker, Git
+- **Frameworks and Tools:** Unity, XR Interaction Toolkit, Borncore, Docker, Git
 - **Web Technologies:** HTML, CSS, JavaScript
 
 ## Contact
 
 Feel free to reach out to me via [email](mailto:hayriye.hilal@outlook.com) for any inquiries or opportunities.
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ---
 
